@@ -1,4 +1,5 @@
-const getTheTitles = function() {
+const getTheTitles = function(bookshelf) {
+    return bookshelf.map(element => element['title'])
 
 };
 
